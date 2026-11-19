@@ -4,7 +4,7 @@
 
 Whether you are building a custom mechanical keyboard, restoring a vintage synthesizer, or upgrading your audio gear, **MyKnob** lets you generate custom, press-fit, or set-screw knobs tailored to your exact hardware in seconds.
 
-![MyKnob Preview](images/preview.png)
+![MyKnob Preview](Images/preview.png)
 
 **Play with MyKnob until it fits your exact specifications.**
 
