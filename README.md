@@ -20,7 +20,7 @@ Whether you are building a custom mechanical keyboard, restoring a vintage synth
 * **Custom Knurling & Grip:** Switch between **Diamond** (helical cross-cut), **Vertical** (straight flutes), or **Smooth** finishes with adjustable groove count, pitch angle, depth, and top/bottom smooth margins.
 * **Top Inlay Pocket & Glue Vent:** Add a recessed pocket (with optional inner lip bevel) for wood, abalone, or multi-color 3D-printed top disks. Includes an optional central pin hole to vent trapped glue/air and allow non-destructive inlay removal.
 * **Set-Screw & Heat-Set Insert Support:** Optional radial set-screw bore aligned directly with the D-shaft flat, complete with an outer countersink chamfer and an expandable counterbore for **brass heat-set inserts**.
-* **Top Position Indicator:** Optional recessed **Dot** or **Notch** on the top face with a `-180°` to `+180°` orientation slider relative to the D-shaft flat.
+* **Top and Side Position Indicator:** Optional raised or recessed **Dot** or **Notch** on the top face, with or without side indicator along the main body, and a `-180°` to `+180°` orientation slider relative to the D-shaft flat.
 * **Built-In Cross-Section Inspector:** Toggle a real-time cutaway view with a `360°` rotating cut plane to verify wall thicknesses, crush rib engagement, and set-screw depth right inside OpenSCAD.
 ---
 
@@ -91,12 +91,12 @@ Found a bug, have a feature idea, or dialed in a great preset for a specific syn
 
 | Section | Key Controls |
 | :--- | :--- |
-| **Main Dimensions** | `Overall Height`, `Outside Diameter`, `Wall Taper Angle`, `Skirt Flare Diameter`, `Skirt Flare Height`, `Bore Depth`, `Skirt Thickness`, `Skirt Recess Depth`, `Skirt Inner Chamfer` |
+| **Main Dimensions** | `Overall Height`, `Outside Diameter`, `Wall Taper Angle`, `Skirt Flare Diameter`, `Skirt Flare Height`, `Skirt Flare Start`, `Bore Depth`, `Skirt Thickness`, `Skirt Recess Depth`, `Skirt Inner Chamfer` |
 | **Top Inlay Pocket & Vent** | `Inlay Diameter`, `Inlay Depth`, `Inlay Chamfer`, `Enable Glue Vent`, `Glue Vent Diameter` |
-| **6mm Shaft Fitment & Crush Ribs** | `Shaft Type` (`D` / `ROUND`), `Shaft Diameter`, `D Flat Thickness`, `Enable Crush Ribs`, `Crush Rib Count`, `Crush Rib Height`, `Crush Rib Width` |
+| **Shaft Fitment & Crush Ribs** | `Shaft Type` (`D` / `ROUND`), `Shaft Diameter`, `D Flat Thickness`, `Enable Crush Ribs`, `Crush Rib Count`, `Crush Rib Height`, `Crush Rib Width` |
 | **Set Screw & Heat-Set Insert** | `Enable Set Screw`, `Set Screw Diameter`, `Set Screw Offset`, `Set Screw Chamfer`, `Enable Heat Set`, `Heat Set Diameter`, `Heat Set Depth` |
-| **Top Indicator** | `Top Indicator` (`NONE` / `DOT` / `NOTCH`), `Indicator Angle`, `Indicator Size`, `Indicator Depth`, `Indicator Offset` |
-| **Knurling & Aesthetics** | `Knurl Style` (`DIAMOND` / `VERTICAL` / `NONE`), `Knurl Count`, `Knurl Angle`, `Knurl Depth`, `Knurl Top Margin`, `Knurl Bottom Margin`, `Top Chamfer`, `Bottom Chamfer` |
+| **Top Indicator** | `Top Indicator` (`NONE` / `DOT` / `NOTCH`), `Top Indicator Mode` (`RECESSED` / `RAISED`), `Indicator Side Drop`, `Side Indicator Mode` (`RECESSED` / `RAISED`), `Indicator Angle`, `Indicator Size`, `Indicator Depth`, `Indicator Offset` |
+| **Knurling & Aesthetics** | `Knurl Style` (`DIAMOND` / `VERTICAL` / `NONE`), `Knurl Count`, `Knurl Angle`, `Knurl Depth`, `Knurl Width`, `Knurl Top Margin`, `Knurl Bottom Margin`, `Knurl Round Ends`, `Top Edge Sytle` (`CHAMFER` / `FILLET`), `Top Chamfer`, `Top Chamfer Angle`, `Top Fillet Conic`, `Bottom Chamfer`, `Bottom Chamfer Angle` |
 | **Resolution, Orientation & Inspection** | `Circle Resolution`, `Auto Flip Flat Top`, `Show Cross Section`, `Cross Section Angle` |
 
 ## 🤖 AI Disclosure
